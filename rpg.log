@@ -1,0 +1,664 @@
+2025-01-30 15:44:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-01-30 15:44:42 RPG    INFO Generated new encryption key in rpg_ods.key
+2025-01-30 15:44:42 RPG   DEBUG Configuration contains 0 jobs and 0 servers
+2025-01-30 15:48:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-01-30 15:48:08 RPG   DEBUG Configuration contains 0 jobs and 0 servers
+2025-01-30 15:48:21 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-01-30 15:51:36 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-01-30 15:51:36 RPG   DEBUG Configuration contains 0 jobs and 1 servers
+2025-01-30 15:51:49 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-01-30 16:10:19 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-01-30 16:10:19 RPG   DEBUG Configuration contains 0 jobs and 2 servers
+2025-01-30 16:11:00 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-01-30 16:11:00 RPG   DEBUG Configuration contains 0 jobs and 2 servers
+2025-01-30 16:11:14 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-01-30 16:11:34 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-01-30 17:01:35 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-01-30 17:01:35 RPG   DEBUG Configuration contains 0 jobs and 3 servers
+2025-02-11 08:59:16 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 08:59:16 RPG   DEBUG Configuration contains 0 jobs and 3 servers
+2025-02-11 09:02:37 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-11 17:09:54 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:09:54 RPG   DEBUG Configuration contains 0 jobs and 4 servers
+2025-02-11 17:16:51 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:16:51 RPG   DEBUG Configuration contains 0 jobs and 4 servers
+2025-02-11 17:16:59 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-11 17:18:12 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:18:12 RPG   DEBUG Configuration contains 0 jobs and 5 servers
+2025-02-11 17:18:55 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:18:55 RPG   DEBUG Configuration contains 0 jobs and 5 servers
+2025-02-11 17:21:48 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:21:48 RPG   DEBUG Configuration contains 0 jobs and 5 servers
+2025-02-11 17:23:09 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:23:09 RPG   DEBUG Configuration contains 0 jobs and 5 servers
+2025-02-11 17:35:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:35:13 RPG   DEBUG Configuration contains 0 jobs and 5 servers
+2025-02-11 17:40:10 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:40:10 RPG   DEBUG Configuration contains 0 jobs and 5 servers
+2025-02-11 17:45:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:45:08 RPG   DEBUG Configuration contains 0 jobs and 3 servers
+2025-02-11 17:51:31 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:51:31 RPG   DEBUG Configuration contains 0 jobs and 3 servers
+2025-02-11 17:52:47 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:52:47 RPG   DEBUG Configuration contains 0 jobs and 3 servers
+2025-02-11 17:54:23 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:54:30 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:55:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:57:12 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-11 17:57:12 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 13:50:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 13:50:43 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 13:53:27 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 13:53:27 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 13:55:03 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 13:55:03 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 13:56:25 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 13:56:25 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 13:58:56 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 13:58:56 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 13:59:01 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-14 13:59:21 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 13:59:21 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 14:01:58 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:01:58 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 14:04:17 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:04:17 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 14:14:26 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:14:26 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-14 14:18:52 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:18:52 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:19:32 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:19:32 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:23:18 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:23:18 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:24:22 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:24:22 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:25:20 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:25:20 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:26:09 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:26:09 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:27:00 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:27:00 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:27:42 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:27:42 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:28:09 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:28:09 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:28:41 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:28:41 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:29:26 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:29:26 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:31:02 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:31:02 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:34:48 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:34:48 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:40:53 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:40:53 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:41:38 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:41:38 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:46:18 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-14 14:46:18 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-14 14:47:21 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-14 14:48:07 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 19:35:20 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 19:35:20 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-24 19:41:19 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 19:41:19 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-24 19:41:53 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:00:38 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:00:38 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:01:15 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:02:07 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:06:32 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:06:32 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:06:56 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:07:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:08:30 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:08:40 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:18:05 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:18:05 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:18:38 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:20:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:20:33 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:21:08 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:23:22 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:23:22 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:23:39 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:24:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:24:43 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:24:58 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:25:17 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:25:17 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:25:25 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:25:39 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:26:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:26:43 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:27:23 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:27:54 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:31:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:31:13 RPG   DEBUG Configuration contains 0 jobs and 29 servers
+2025-02-24 20:31:18 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:31:39 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:31:39 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:31:45 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:31:51 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:32:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:32:59 RPG   DEBUG Configuration contains 0 jobs and 26 servers
+2025-02-24 20:33:05 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:33:28 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:33:28 RPG   DEBUG Configuration contains 0 jobs and 25 servers
+2025-02-24 20:33:34 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:34:54 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:34:54 RPG   DEBUG Configuration contains 0 jobs and 24 servers
+2025-02-24 20:34:59 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:35:05 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:35:11 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:35:16 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:35:49 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:35:49 RPG   DEBUG Configuration contains 0 jobs and 20 servers
+2025-02-24 20:35:54 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:36:00 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:36:11 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:36:19 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:36:24 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:43:09 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:43:09 RPG   DEBUG Configuration contains 0 jobs and 15 servers
+2025-02-24 20:43:13 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:43:32 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:43:32 RPG   DEBUG Configuration contains 0 jobs and 14 servers
+2025-02-24 20:43:35 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:43:40 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:43:59 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:44:02 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:44:06 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:44:10 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:44:17 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:44:21 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:44:25 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:45:46 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:46:49 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:46:49 RPG   DEBUG Configuration contains 0 jobs and 6 servers
+2025-02-24 20:47:31 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:47:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:47:50 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:48:21 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:51:21 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:51:21 RPG   DEBUG Configuration contains 0 jobs and 16 servers
+2025-02-24 20:53:28 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:53:28 RPG   DEBUG Configuration contains 0 jobs and 22 servers
+2025-02-24 20:55:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-24 20:55:07 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-24 20:55:51 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:56:05 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-24 20:56:45 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-25 11:19:42 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-25 11:19:42 RPG   DEBUG Configuration contains 0 jobs and 28 servers
+2025-02-25 11:19:56 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-25 11:20:01 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-25 11:20:07 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-25 11:20:14 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-25 11:22:54 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-25 11:22:54 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-02-25 11:23:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-25 11:23:13 RPG   DEBUG Configuration contains 0 jobs and 26 servers
+2025-02-28 13:55:27 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-02-28 13:55:27 RPG   DEBUG Configuration contains 0 jobs and 26 servers
+2025-02-28 13:57:09 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-28 14:02:00 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-28 14:02:23 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-02-28 14:02:30 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 17:57:57 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 17:57:57 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:06:24 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:06:24 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:06:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 18:07:01 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 18:07:16 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 18:09:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:09:08 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:09:22 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 18:22:04 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:22:04 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:22:40 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 18:23:19 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 18:31:58 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:31:58 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:52:04 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:52:04 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:52:04 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:52:04 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:53:46 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:53:46 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:53:46 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:53:46 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:54:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:54:33 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 18:54:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 18:54:33 RPG   DEBUG Configuration contains 0 jobs and 27 servers
+2025-03-09 19:03:20 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:03:20 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:03:20 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:03:20 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:08:51 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:08:51 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:08:51 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:08:51 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:09:25 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:09:25 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:09:25 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:09:25 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:10:24 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:10:24 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:10:24 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:10:24 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:17:23 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:17:23 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:17:23 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:17:23 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:40:22 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:40:22 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:40:22 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 19:40:22 RPG   DEBUG Configuration contains 2 jobs and 27 servers
+2025-03-09 19:40:40 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 20:28:20 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:28:20 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:28:20 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:28:20 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:32:21 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:32:21 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:32:21 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:32:21 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:35:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:35:59 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:35:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:35:59 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:36:59 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 20:56:41 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:56:41 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:56:41 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:56:41 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:56:48 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 20:58:02 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:58:02 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:58:02 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 20:58:02 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 20:58:55 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 21:02:44 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:02:44 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:02:44 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:02:44 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:02:52 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 21:03:04 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 21:03:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 21:03:49 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 21:05:37 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:05:37 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:05:37 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:05:37 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:05:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 21:06:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:06:13 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:06:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:06:13 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:47:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:47:59 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:47:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:47:59 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:47:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:47:59 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:48:30 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:48:30 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:48:30 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:48:30 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:48:30 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:48:30 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:54:35 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:54:35 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:54:35 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:54:36 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:54:36 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:54:36 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:55:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:55:07 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:55:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:55:07 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:55:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:55:07 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:58:56 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:58:56 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:58:56 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:58:56 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:58:56 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 21:58:56 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 21:59:37 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 21:59:41 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 22:00:02 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 22:00:21 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 22:03:25 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 22:03:25 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 22:03:25 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 22:03:25 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 22:03:25 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-09 22:03:25 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-09 22:03:39 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-09 22:03:45 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 10:41:37 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 10:41:37 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 10:41:37 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 10:41:37 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 10:41:37 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 10:41:37 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 10:42:03 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 10:42:12 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 10:42:25 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 10:42:35 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 10:43:11 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 10:43:11 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 10:43:11 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 10:43:11 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 10:43:11 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 10:43:11 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 11:01:29 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 11:01:29 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 11:01:29 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 11:01:29 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 11:01:29 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-20 11:01:29 RPG   DEBUG Configuration contains 3 jobs and 27 servers
+2025-03-20 11:01:44 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 11:01:52 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 11:02:52 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 11:03:04 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 11:04:01 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 11:04:17 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-20 11:04:27 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-24 20:44:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 20:44:59 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 20:44:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 20:44:59 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 20:44:59 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 20:44:59 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:30:51 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:30:51 RPG    INFO Generated new encryption key in rpg_ods.key
+2025-03-24 21:30:51 RPG   DEBUG Configuration contains 4 jobs and 38 servers
+2025-03-24 21:30:51 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:30:51 RPG   DEBUG Configuration contains 4 jobs and 38 servers
+2025-03-24 21:30:51 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:30:51 RPG   DEBUG Configuration contains 4 jobs and 38 servers
+2025-03-24 21:32:53 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:32:53 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:32:53 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:32:53 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:32:53 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:32:53 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:40:54 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:40:54 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:40:54 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:40:54 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:40:54 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:40:54 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:43:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:43:13 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:43:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:43:13 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:43:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:43:13 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:57:12 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:57:12 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:57:12 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:57:12 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 21:57:12 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 21:57:12 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:14:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:14:08 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:14:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:14:08 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:14:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:14:08 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:14:47 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:14:47 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:14:47 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:14:47 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:14:47 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:14:47 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:16:16 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:16:16 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:16:16 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:16:16 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:16:16 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:16:16 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:20:12 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:20:12 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:20:12 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:20:12 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:20:12 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:20:12 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:51:45 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:51:45 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:51:45 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:51:45 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:51:45 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:51:45 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:52:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:52:43 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:52:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:52:43 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:52:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:52:43 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:53:05 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:53:05 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:53:05 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:53:05 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:53:05 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:53:05 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:53:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:53:33 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:53:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:53:33 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 22:53:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 22:53:33 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 23:31:17 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 23:31:17 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 23:31:17 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 23:31:17 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 23:31:17 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 23:31:17 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 23:31:23 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-24 23:32:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 23:32:43 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 23:32:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 23:32:43 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 23:32:43 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-24 23:32:43 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-24 23:32:51 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:06:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:06:07 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-25 00:06:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:06:07 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-25 00:06:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:06:07 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-25 00:08:38 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:08:38 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-25 00:08:38 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:08:38 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-25 00:08:38 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:08:38 RPG   DEBUG Configuration contains 4 jobs and 27 servers
+2025-03-25 00:08:53 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:09:05 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:09:30 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:09:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:09:57 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:10:41 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:10:41 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:10:41 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:10:41 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:10:41 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:10:41 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:10:50 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:11:32 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:11:32 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:11:32 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:11:32 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:11:32 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:11:32 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:11:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:18:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:18:08 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:18:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:18:08 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:18:08 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:18:08 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:19:31 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:19:31 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:19:31 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:19:31 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:19:31 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:19:31 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:19:41 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:20:10 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:25:15 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:25:15 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:25:15 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:25:15 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:25:15 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:25:15 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:25:26 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:25:42 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:33:57 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:33:57 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:33:57 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:33:57 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:33:57 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:33:57 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:34:07 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:34:19 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:34:39 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:58:06 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:58:07 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:58:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:58:07 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:58:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:58:07 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:58:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:58:33 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:58:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:58:33 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:58:33 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 00:58:33 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 00:58:53 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 00:59:12 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 06:54:00 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 06:54:00 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 06:54:00 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 06:54:00 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 06:54:00 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 06:54:00 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:30:09 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:30:09 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:30:09 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:30:09 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:30:09 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:30:09 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:31:46 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:31:46 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:31:46 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:31:46 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:31:46 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:31:46 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:32:42 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:32:42 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:32:42 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:32:42 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:32:42 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:32:42 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:32:49 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 07:34:10 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:34:10 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:34:10 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:34:10 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:34:10 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 07:34:10 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 07:34:16 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 07:34:21 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 07:34:28 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 07:36:13 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 07:36:29 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 08:32:36 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:32:36 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 08:32:36 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:32:36 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 08:32:36 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:32:36 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 08:32:49 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 08:32:57 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 08:33:18 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 08:33:39 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 08:37:37 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:37:37 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 08:37:37 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:37:37 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 08:37:37 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:37:37 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 08:58:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:58:13 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 08:58:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:58:13 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 08:58:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 08:58:13 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 09:05:14 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:05:14 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 09:05:14 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:05:14 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 09:05:14 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:05:14 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 09:06:31 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:06:31 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 09:06:31 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:06:31 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 09:06:31 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:06:31 RPG   DEBUG Configuration contains 6 jobs and 27 servers
+2025-03-25 09:06:46 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:06:57 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:08:54 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:09:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:09:13 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:09:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:09:13 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:09:13 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:09:13 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:09:30 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:09:41 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:14:02 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:14:02 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:14:02 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:14:02 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:14:02 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:14:02 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:37:00 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:37:00 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:37:00 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:37:00 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:37:00 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:37:00 RPG   DEBUG Configuration contains 7 jobs and 27 servers
+2025-03-25 09:37:38 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:38:59 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:45:11 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:45:11 RPG   DEBUG Configuration contains 7 jobs and 29 servers
+2025-03-25 09:45:11 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:45:11 RPG   DEBUG Configuration contains 7 jobs and 29 servers
+2025-03-25 09:45:11 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:45:11 RPG   DEBUG Configuration contains 7 jobs and 29 servers
+2025-03-25 09:45:36 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:53:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:53:07 RPG   DEBUG Configuration contains 7 jobs and 30 servers
+2025-03-25 09:53:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:53:07 RPG   DEBUG Configuration contains 7 jobs and 30 servers
+2025-03-25 09:53:07 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 09:53:07 RPG   DEBUG Configuration contains 7 jobs and 30 servers
+2025-03-25 09:54:31 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:55:32 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 09:56:24 RPG   DEBUG Saved configuration to rpg_ods.ini
+2025-03-25 10:54:48 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 10:54:48 RPG   DEBUG Configuration contains 7 jobs and 33 servers
+2025-03-25 10:54:48 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 10:54:48 RPG   DEBUG Configuration contains 7 jobs and 33 servers
+2025-03-25 10:54:48 RPG   DEBUG Reading configuration from rpg_ods.ini
+2025-03-25 10:54:48 RPG   DEBUG Configuration contains 7 jobs and 33 servers

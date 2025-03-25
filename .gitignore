@@ -1,0 +1,9 @@
+# Ignore local cache
+gui_rpg/__pycache__/
+rpg/__pycache__
+
+#  Ignore log files
+.log
+
+# ignore .DS_STORE
+.DS_STORE
