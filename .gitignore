@@ -1,6 +1,5 @@
 # Ignore local cache
-gui_rpg/__pycache__/
-rpg/__pycache__
+**/__pycache__/
 
 #  Ignore log files
 .log
