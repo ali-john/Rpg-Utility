@@ -14,13 +14,13 @@ rpg = RPGConfig()  # Configuration settings
 
 # ----- CONSTANTS ---------------------------------------------------------------
 
-config_file = open("config.json")
-CONFIG = json.load(config_file)
-config_file.close()
+with open("config.json", encoding='utf-8') as config_file:
+    CONFIG = json.load(config_file)
 
 NUMBER_OF_COLUMNS = 4
 IP_PATTERN = re.compile(r'^\d+(\.\d+){3}$')
-HOSTNAME_PATTERN = re.compile(r'^(?=.{1,253}$)(?!-)[A-Za-z0-9]([A-Za-z0-9-]{0,61}[A-Za-z0-9])?'r'(\.[A-Za-z0-9]([A-Za-z0-9-]{0,61}[A-Za-z0-9])?)*$')
+HOSTNAME_PATTERN = re.compile(r'^(?=.{1,253}$)(?!-)[A-Za-z0-9]([A-Za-z0-9-]{0,61}[A-Za-z0-9])?'
+                              r'(\.[A-Za-z0-9]([A-Za-z0-9-]{0,61}[A-Za-z0-9])?)*$')
 
 
 # ===== FUNCTIONS =============================================================
@@ -32,6 +32,47 @@ def show_error(parent, message):
 def show_success(parent, message):
     wx.MessageBox(message, "Success", wx.OK | wx.ICON_INFORMATION, parent)
 
+def validate_ip(address) -> int:
+    """
+    Validates a given IP address.
+
+     Args:
+        address (str): The IP address
+    
+     Returns:
+        int: 0 if the IP address is valid else return -1
+
+    """
+    if IP_PATTERN.match(address):
+        try:
+            ipaddress.IPv4Network(address)
+        except:
+            return -1
+    else:
+        if not HOSTNAME_PATTERN.match(address):
+            return -1
+    return 0
+
+
+def validate_port(port_number) -> int:
+    """
+    Validates a given port number.
+
+     Args:
+        port number (str): The port number
+    
+     Returns:
+        int: 0 if the port number is valid else return -1
+
+    """
+    if not port_number.isdigit():
+        return -1
+    port_number = int(port_number)
+    if not 1<= port_number <= 32767:
+        return -1
+    return 0
+
+
 
 # ----- CLASSES ---------------------------------------------------------------
 
@@ -42,8 +83,8 @@ class AddChangeServerDialog(wx.Dialog):
     def __init__(self, parent, title, server_data = None):
         super().__init__(parent, title=title, size=(350, 300))
         self.init_gui(server_data = server_data)
-  
-    
+
+
     def init_gui(self, server_data) -> None:
         """
         Initializes the GUI window.
@@ -61,7 +102,7 @@ class AddChangeServerDialog(wx.Dialog):
         self.username_text = wx.TextCtrl(panel)
         self.password_label = wx.StaticText(panel, label = "Password:")
         self.password_text = wx.TextCtrl(panel, style=wx.TE_PASSWORD)
-        
+
         self.ok_btn = wx.Button(panel, wx.ID_OK, "OK")
         self.cancel_btn = wx.Button(panel, wx.ID_CANCEL, "Cancel")
 
@@ -73,7 +114,7 @@ class AddChangeServerDialog(wx.Dialog):
             self.username_text.SetValue(server_data["user"])
 
             self.id_text.Enable(False)
-        
+  
         grid = wx.FlexGridSizer(6, 2, 10, 10)
         grid.AddMany([
             (self.id_label), (self.id_text,1,wx.EXPAND),
@@ -83,7 +124,7 @@ class AddChangeServerDialog(wx.Dialog):
             (self.username_label), (self.username_text, 1, wx.EXPAND),
             (self.password_label), (self.password_text, 1, wx.EXPAND)
         ])
-        
+    
         grid.AddGrowableCol(1, 1)
         btn_sizer = wx.StdDialogButtonSizer()
         main_sizer = wx.BoxSizer(wx.VERTICAL)
@@ -104,7 +145,7 @@ class AddChangeServerDialog(wx.Dialog):
             "server_id": self.id_text.GetValue(),
             "address": self.ip_text.GetValue(),
             "port": self.port_text.GetValue(),
-            "server_type": self.type_choice.GetStringSelection(),
+            "server_type": self.type_choice.GetStringSelection().lower(),
             "user": self.username_text.GetValue(),
             "password": self.password_text.GetValue(),
         }
@@ -121,7 +162,7 @@ class Server(wx.Frame):
         self.populate_server_list()
         self.adjust_column_widths()
         self.Show()
-    
+
 
     def init_gui(self,parent) -> None:
         """
@@ -161,7 +202,7 @@ class Server(wx.Frame):
         main_sizer.Add(title, flag=wx.ALIGN_CENTER | wx.TOP, border=12)
         main_sizer.Add(self.list_ctrl, proportion=1, flag=wx.EXPAND | wx.ALL, border=10)
         main_sizer.Add(button_sizer, flag=wx.ALIGN_CENTER | wx.BOTTOM, border=10)
-        
+
         self.panel.SetSizer(main_sizer)
         self.SetBackgroundColour(wx.Colour(CONFIG["COLORS"]["BACKGROUND_COLOR"]))
         self.Center()
@@ -176,6 +217,7 @@ class Server(wx.Frame):
         self.back_button.Bind(wx.EVT_BUTTON, self.on_back_button_click)
         self.Bind(wx.EVT_SIZE, self.on_resize)
         self.list_ctrl.Bind(wx.EVT_LIST_ITEM_ACTIVATED, self.on_server_double_click)
+        self.Bind(wx.EVT_CLOSE, self.on_close)
 
 
     def populate_server_list(self) -> None:
@@ -218,10 +260,11 @@ class Server(wx.Frame):
         """
         Closes the dialog.
         """
-        # TODO: Delete the parent window as well
+        if self.parent:
+            self.parent.Destroy()
         self.Destroy()
-    
-    
+
+
     def on_add_server_button_click(self, event) -> None:
         """
         Add a new server record
@@ -236,55 +279,42 @@ class Server(wx.Frame):
             password = server_data.get("password",'').strip()
             # perform data checks on server id
             if len(server_id) < 4 or len(server_id) > 16 or not server_id.isalnum():
-                show_error(self, message= f"Server name must be 4-16 alpha numeric characters.")
+                show_error(self, message= "Server name must be 4-16 alpha numeric characters.")
                 dialog.Destroy()
                 return
             if rpg.server_exists(server_id):
                 show_error(self, message=f" Server {server_id} already exists.")
                 dialog.Destroy()
                 return
-            
-            # perform data checks on server address
-            if IP_PATTERN.match(address):
-                try:
-                    ipaddress.IPv4Network(address)
-                except:
-                    show_error(self, message=f" Address must be a valid IP address.")
-                    dialog.Destroy()
-                    return
-            else:
-                if not HOSTNAME_PATTERN.match(address):
-                    show_error(self, message=f" Address must be a valid IP address or hostname.")
-                    dialog.Destroy()
-                    return
 
-            # perform check on port number 
-            if not port_number.isdigit():
-                show_error(self, message=f"Port number must be a valid number.")
+            # perform data checks on server address
+            status = validate_ip(address)
+            if status == -1:
+                show_error(self, message=f" Address must be a valid IP address or hostname.")
                 dialog.Destroy()
                 return
-            else:
-                port_number = int(port_number)
-                if not ( 1 <= port_number <= 32767 ):
-                    show_error("Port number must be in range 1-32767.")
-                    dialog.Destroy()
-                    return
-            
+            # perform data check on server port number
+            status = validate_port(port_number)
+            if status == -1:
+                show_error(self, message= "Port number must be valid number in range 1-32767.")
+                dialog.Destroy()
+                return
+        
             # perform check on user
             if not user:
-                show_error(self, message=f"User can not be empty.")
+                show_error(self, message="User can not be empty.")
                 dialog.Destroy()
                 return
-            
+
             # perform check on password:
             if not password:
-                show_error(self, message=f"Password can not be empty.")
+                show_error(self, message="Password can not be empty.")
                 dialog.Destroy()
                 return
             rpg.set_server(**server_data)
             self.populate_server_list()
             wx.Yield()
-            show_success(self,message=f'Server added successfully')
+            show_success(self,message='Server added successfully')
         dialog.Destroy()
 
     def on_server_double_click(self,event) -> None:
@@ -295,7 +325,7 @@ class Server(wx.Frame):
         if selected_index == -1: # if no selection is made
             show_error(self,"Please select a server to change.")
             return
-        
+
         server_data = {
             "server_id": self.list_ctrl.GetItemText(selected_index),
             "address": self.list_ctrl.GetItemText(selected_index, 1),
@@ -310,16 +340,45 @@ class Server(wx.Frame):
             if len(updated_data['password']) == 0: # if there are no changes to password field
                 updated_data['password'] = prev_data[3]
 
-            # TODO: Add checks on data
-            server_name = updated_data['server_id']
+            server_name = updated_data['server_id'].strip().upper() # server id is not editable.
+            address = updated_data.get("address",'').strip()
+            port_number = updated_data.get("port",'').strip()
+            user = updated_data.get("user",'').strip()
+            password = updated_data.get("password",'').strip()
+
             if not rpg.server_exists(server_name):
                 show_error(self,message=f'Server name {server_name} does not exists.')
-            else:
-                rpg.set_server(**updated_data)
-                self.populate_server_list()
-                wx.Yield()
-                show_success(self,message = f'Server {server_name} changed successfully.')
 
+            # perform check on server ip
+            status = validate_ip(address)
+            if status == -1:
+                show_error(self, message=" Address must be a valid IP address or hostname.")
+                dialog.Destroy()
+                return
+            # perform data check on server port number
+            status = validate_port(port_number)
+            if status == -1:
+                show_error(self, message = "Port number must be valid number in range 1-32767.")
+                dialog.Destroy()
+                return
+  
+            # perform check on user
+            if not user:
+                show_error(self, message="User can not be empty.")
+                dialog.Destroy()
+                return
+
+            # perform check on password:
+            if not password:
+                show_error(self, message="Password can not be empty.")
+                dialog.Destroy()
+                return
+
+            rpg.set_server(**updated_data)
+            self.populate_server_list()
+            wx.Yield()
+            show_success(self,message = f'Server {server_name} changed successfully.')
+                
 
     def on_delete_server_button_click(self,event) -> None:
         """
@@ -329,7 +388,7 @@ class Server(wx.Frame):
         if selected_index == -1: # if no selection is made
             show_error(self,"Please select a server to delete.")
             return
-        
+
         server_id = self.list_ctrl.GetItemText(selected_index)
         confirmation = wx.MessageBox(
             f"Are you sure you want to delete server '{server_id}'?",
@@ -348,7 +407,6 @@ class Server(wx.Frame):
         """
         Go back to the main page.
         """
-        # TODO: Delete the current page.
         self.Hide()
         self.parent.Show()
-    
+

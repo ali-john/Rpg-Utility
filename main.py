@@ -2,7 +2,7 @@
 
 # ----- IMPORTS ---------------------------------------------------------------
 import json
-import wx 
+import wx
 
 from gui_rpg.jobs import Jobs
 from gui_rpg.server import Server
@@ -10,9 +10,8 @@ from gui_rpg.configuration import Configuration
 
 # ----- CONSTANTS ---------------------------------------------------------------
 
-config_file = open("config.json")
-CONFIG = json.load(config_file)
-config_file.close()
+with open("config.json", encoding='utf-8') as config_file:
+    CONFIG = json.load(config_file)
 
 
 # ----- CLASSES ---------------------------------------------------------------
@@ -22,10 +21,15 @@ class MainFrame(wx.Frame):
     The class for main window of GUI
     """
     def __init__(self):
-        super().__init__(parent=None,id=1,title = "RPG Utility",size=(700,700))
+        super().__init__(
+            parent=None,
+            id=1,
+            title = "RPG Utility",
+            size=(700,700)
+            )
         self.init_gui()
         self.bind_events()
-        
+
     def init_gui(self):
         """
         Initializes the GUI layout.
@@ -49,7 +53,7 @@ class MainFrame(wx.Frame):
         self.SetBackgroundColour(wx.Colour(CONFIG["COLORS"]["BACKGROUND_COLOR"]))
         self.Center()
         self.Show()
-    
+
     def bind_events(self) -> None:
         """
         Bind each item to an event.
@@ -57,7 +61,7 @@ class MainFrame(wx.Frame):
         self.job_button.Bind(wx.EVT_BUTTON, self.on_job_button_click)
         self.server_button.Bind(wx.EVT_BUTTON, self.on_server_button_click)
         self.utilities_button.Bind(wx.EVT_BUTTON,self.on_configuration_button_click)
-    
+
     def on_job_button_click(self,event):
         """
         Display Jobs page. 
@@ -65,7 +69,7 @@ class MainFrame(wx.Frame):
         jobs_page = Jobs(parent=self,id=2,title="Jobs Utility",size=(700,700) )
         self.Hide()
         jobs_page.Show()
-    
+
     def on_server_button_click(self,event):
         """
         Display Server page. 
@@ -73,7 +77,7 @@ class MainFrame(wx.Frame):
         server_page = Server(parent=self,id=3,title="Servers Utility",size=(700,700) )
         self.Hide()
         server_page.Show()
-    
+
     def on_configuration_button_click(self,event):
         """
         Display Configurations page.
@@ -89,7 +93,7 @@ def main():
     Entry point for the program.
     """
     app = wx.App()
-    main_frame = MainFrame()
+    MainFrame()
     app.MainLoop()
 
 if __name__=="__main__":

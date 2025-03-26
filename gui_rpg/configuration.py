@@ -2,8 +2,8 @@
 
 # ----- IMPORTS ---------------------------------------------------------------
 import json
-import wx
 from fnmatch import fnmatch
+import wx
 
 from rpg.rpgcore import RPGConfig
 
@@ -13,9 +13,8 @@ rpg = RPGConfig()  # Configuration settings
 
 # ----- CONSTANTS ---------------------------------------------------------------
 
-config_file = open("config.json")
-CONFIG = json.load(config_file)
-config_file.close()
+with open("config.json", encoding="utf-8") as config_file:
+    CONFIG = json.load(config_file)
 
 NUMBER_OF_COLUMNS = 2
 
@@ -123,7 +122,7 @@ class Configuration(wx.Frame):
         self.list_ctrl.SetBackgroundColour(wx.Colour(CONFIG["COLORS"]["BACKGROUND_COLOR"]))
         self.list_ctrl.InsertColumn(0, "Parameter Name")
         self.list_ctrl.InsertColumn(1, "Parameter Value")
-        
+
         # create sizers
         button_sizer = wx.BoxSizer(wx.HORIZONTAL)
         main_sizer = wx.BoxSizer(wx.VERTICAL)
@@ -131,16 +130,16 @@ class Configuration(wx.Frame):
         button_sizer.Add(self.back_button, flag=wx.ALL, border=5)
         button_sizer.Add(self.add_parameter_button, flag=wx.ALL, border=5)
         button_sizer.Add(self.delete_parameter_button, flag=wx.ALL, border=5)
-        
+
         main_sizer.Add(title, flag=wx.ALIGN_CENTER | wx.TOP, border=12)
         main_sizer.Add(self.list_ctrl, proportion=1, flag=wx.EXPAND | wx.ALL, border=10)
         main_sizer.Add(button_sizer, flag=wx.ALIGN_CENTER | wx.BOTTOM, border=10)
-        
+
         self.panel.SetSizer(main_sizer)
         self.SetBackgroundColour(wx.Colour(CONFIG["COLORS"]["BACKGROUND_COLOR"]))
         self.Center()
-         
-        
+
+
     def bind_events(self) -> None:
         """
         Triggers an event when an item is interacted with.
@@ -150,6 +149,7 @@ class Configuration(wx.Frame):
         self.back_button.Bind(wx.EVT_BUTTON, self.on_back_button_click)
         self.Bind(wx.EVT_SIZE, self.on_resize)
         self.list_ctrl.Bind(wx.EVT_LIST_ITEM_ACTIVATED, self.on_parameter_double_click)
+        self.Bind(wx.EVT_CLOSE, self.on_close)
 
 
     def populate_parameter_list(self) -> None:
@@ -187,10 +187,11 @@ class Configuration(wx.Frame):
         """
         Closes the dialog.
         """
-        # TODO: Delete the parent window as well
+        if self.parent:
+            self.parent.Destroy()
         self.Destroy()
-    
-    
+
+
     def on_add_parameter_button_click(self,event) -> None:
         """
         Add a new parameter to the record.
@@ -199,9 +200,18 @@ class Configuration(wx.Frame):
         dialog = AddChangeParameterDialog(self, title = "Add a Parameter")
         if dialog.ShowModal() == wx.ID_OK:
             parameter_data = dialog.get_parameter_data()
-            # TODO: Add checks on the data
-            key = parameter_data["key"]
-            value = parameter_data["value"]
+            key = parameter_data.get("key","").strip().upper()
+            if not 4 <= len(key) <= 12:
+                show_error(self, message= "Parameter should be 4-12 characters long.")
+                dialog.Destroy()
+                return
+
+            value = parameter_data.get("value",'').strip()
+            if not value:
+                show_error(self, message= "Value can not be Null. ")
+                dialog.Destroy()
+                return
+
             encrypt = parameter_data["encrypt"] == "True"
             rpg.set_param(
                     param = key,
@@ -211,10 +221,10 @@ class Configuration(wx.Frame):
             self.populate_parameter_list()
             wx.Yield()
             show_success(self,message=f"Parameter '{key}' added successfully.")
-        
+
         dialog.Destroy()
 
-    
+
     def on_delete_parameter_button_click(self,event) -> None:
         """
         Delete a parameter from the record.
@@ -223,9 +233,9 @@ class Configuration(wx.Frame):
         if selected_index == -1: # if no selection is made
             show_error(self,"Please select a Parameter to delete.")
             return
-        
+
         key = self.list_ctrl.GetItemText(selected_index)
-        
+
         confirmation = wx.MessageBox(
             f"Are you sure you want to delete Parameter '{key}'?",
             "Confirm Delete",
@@ -239,16 +249,16 @@ class Configuration(wx.Frame):
             wx.Yield()
             show_success(self, f"Parameter '{key}' deleted successfully.")
 
-    
+
     def on_parameter_double_click(self,event) -> None:
         """
         Change an existing parameter values.
         """
         selected_index = event.GetIndex()
         if selected_index == -1:  # if no selection is made
-            show_error(self, "Please select a parameter to change.")
+            show_error(self, message="Please select a parameter to change.")
             return
-       
+
         parameter_data = {
             "key": self.list_ctrl.GetItemText(selected_index),
             "value": self.list_ctrl.GetItemText(selected_index, 1),
@@ -262,14 +272,14 @@ class Configuration(wx.Frame):
         dialog = AddChangeParameterDialog(self, title = "Change Parameter", parameter_data = parameter_data)
         if dialog.ShowModal() != wx.ID_OK:
             return 
-        
+
         updated_data = dialog.get_parameter_data()
         key = updated_data.get('key', '')
         new_value = updated_data.get('value', '')
         new_encrypted = updated_data.get('encrypt', 'False')
-        
+
         if not new_value:
-            show_error(self, "Parameter value cannot be empty.")
+            show_error(self, message= "Parameter value cannot be empty.")
             return
 
         if new_value == parameter_data.get('value','') and new_encrypted == encrypted: # no changes made to the parameter value
@@ -284,12 +294,11 @@ class Configuration(wx.Frame):
         self.populate_parameter_list()
         wx.Yield()
         show_success(self,message=f"Parameter '{key}' changed successfully.")
-        
+
     def on_back_button_click(self,event) -> None:
-            """
-            Go back to the main page.
-            """
-            # TODO: Delete the current page.
-            self.Hide()
-            self.parent.Show()
-    
+        """
+        Go back to the main page.
+        """
+        self.Hide()
+        self.parent.Show()
+

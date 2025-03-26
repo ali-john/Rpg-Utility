@@ -3,8 +3,9 @@
 # ----- IMPORTS ---------------------------------------------------------------
 import json
 import re
-import wx
 from fnmatch import fnmatch
+import wx
+
 
 from rpg.rpgcore import RPGConfig
 
@@ -14,9 +15,8 @@ rpg = RPGConfig()  # Configuration settings
 
 # ----- CONSTANTS ---------------------------------------------------------------
 
-config_file = open("config.json")
-CONFIG = json.load(config_file)
-config_file.close()
+with open("config.json", encoding="utf-8") as config_file:
+    CONFIG = json.load(config_file)
 
 NUMBER_OF_COLUMNS = 4
 JOBS_PATTERN1 = re.compile(r'^[A-Z]{4,12}$')
@@ -42,7 +42,7 @@ class AddJobDialog(wx.Dialog):
     def __init__(self, parent, title):
         super().__init__(parent, title=title, size=(350, 300))
         self.init_gui()
-    
+
     def init_gui(self):
         """
         Initializes the GUI window.
@@ -55,8 +55,8 @@ class AddJobDialog(wx.Dialog):
 
         self.ok_btn = wx.Button(panel, wx.ID_OK, "OK")
         self.cancel_btn = wx.Button(panel, wx.ID_CANCEL, "Cancel")
-        
-    
+
+
         grid = wx.FlexGridSizer(6, 2, 10, 10)
         grid.AddMany([
             (self.id_label), (self.id_text,1,wx.EXPAND),
@@ -66,7 +66,7 @@ class AddJobDialog(wx.Dialog):
         grid.AddGrowableCol(1, 1)
         btn_sizer = wx.StdDialogButtonSizer()
         main_sizer = wx.BoxSizer(wx.VERTICAL)
-        
+
         btn_sizer.AddButton(self.ok_btn)
         btn_sizer.AddButton(self.cancel_btn)
         btn_sizer.Realize()
@@ -109,13 +109,13 @@ class ChangeJobDialog(wx.Dialog):
 
         self.ok_btn = wx.Button(panel, wx.ID_OK, "OK")
         self.cancel_btn = wx.Button(panel, wx.ID_CANCEL, "Cancel")
-        
+
         self.id_text.SetValue(job_data["job_id"])
         self.last_run_text.SetValue(job_data["last_run"])  
         self.next_run_text.SetValue(job_data["next_run"])
         self.frequency_text.SetValue(job_data["frequency"])
-        
-        
+
+
         # Add to layout
         grid = wx.FlexGridSizer(6, 2, 10, 10)
         grid.AddMany([
@@ -128,7 +128,7 @@ class ChangeJobDialog(wx.Dialog):
         grid.AddGrowableCol(1, 1)
         btn_sizer = wx.StdDialogButtonSizer()
         main_sizer = wx.BoxSizer(wx.VERTICAL)
-        
+
         btn_sizer.AddButton(self.ok_btn)
         btn_sizer.AddButton(self.cancel_btn)
         btn_sizer.Realize()
@@ -148,7 +148,7 @@ class ChangeJobDialog(wx.Dialog):
             "next_run": self.next_run_text.GetValue(),
             "frequency": self.frequency_text.GetValue(),
         }
-    
+
 
 class Jobs(wx.Frame):
     """
@@ -197,12 +197,12 @@ class Jobs(wx.Frame):
         main_sizer.Add(title, flag=wx.ALIGN_CENTER | wx.TOP, border=12)
         main_sizer.Add(self.list_ctrl, proportion=1, flag=wx.EXPAND | wx.ALL, border=10)
         main_sizer.Add(button_sizer, flag=wx.ALIGN_CENTER | wx.BOTTOM, border=10)
-        
+
         self.panel.SetSizer(main_sizer)
         self.SetBackgroundColour(wx.Colour(CONFIG["COLORS"]["BACKGROUND_COLOR"]))
         self.Center()
-        
-    
+
+
     def bind_events(self) -> None:
         """
         Trigger an event when an item is interacted with.
@@ -212,8 +212,9 @@ class Jobs(wx.Frame):
         self.delete_job_button.Bind(wx.EVT_BUTTON,self.on_delete_job_button_click)
         self.Bind(wx.EVT_SIZE, self.on_resize)
         self.list_ctrl.Bind(wx.EVT_LIST_ITEM_ACTIVATED, self.on_job_double_click)
+        self.Bind(wx.EVT_CLOSE, self.on_close)
 
-        
+
     def populate_jobs_list(self) -> None:
         """
         Fetches jobs data and populates the ListCtrl.
@@ -255,10 +256,11 @@ class Jobs(wx.Frame):
         """
         Closes the dialog.
         """
-        # TODO: Delete the parent window as well
+        if self.parent:
+            self.parent.Destroy()
         self.Destroy()
-    
-    
+
+
     def on_add_job_button_click(self,event) -> None:
         """"
         Add a new job record.
@@ -268,9 +270,9 @@ class Jobs(wx.Frame):
             job_data = dialog.get_job_data()
             job_id = job_data.get("job_id",'').strip().upper()
             day = job_data.get("frequency",'').strip()
-            
+
             if not (JOBS_PATTERN1.match(job_id) or JOBS_PATTERN2.match(job_id)):
-                show_error(self, message=f'Invalid Job format. Must be 4-12 letters or follow format: 2-8 letters, 2 digits, optional letter.')
+                show_error(self, message='Invalid Job format. Must be 4-12 letters or follow format: 2-8 letters, 2 digits, optional letter.')
                 dialog.Destroy()
                 return
             if rpg.job_exists(job_id):
@@ -279,18 +281,18 @@ class Jobs(wx.Frame):
                 return
             if day.isdigit():
                 if not (1 <= int(day) <=28 ):
-                    show_error(self, message= f"Frequency must be in range 1-28")
+                    show_error(self, message= "Frequency must be in range 1-28")
                     dialog.Destroy()
                     return
             elif day.upper() not in WEEKDAYS:
-                show_error(self, message= f"Frequency must be three letter weekday (Mon, Tue, etc.) or number in range 1-28")
+                show_error(self, message= "Frequency must be three letter weekday (Mon, Tue, etc.) or number in range 1-28")
                 dialog.Destroy()
                 return
 
             rpg.set_job(job_id= job_id, day= day.upper())
             self.populate_jobs_list()
             wx.Yield()
-            show_success(self,message=f'Job added successfully.')
+            show_success(self,message='Job added successfully.')
         dialog.Destroy()
 
 
@@ -302,7 +304,7 @@ class Jobs(wx.Frame):
         if selected_index == -1:  # if no selection is made
             show_error(self, "Please select a Job to change.")
             return
-       
+
         job_data = {
             "job_id": self.list_ctrl.GetItemText(selected_index),
             "last_run": self.list_ctrl.GetItemText(selected_index, 1),
@@ -313,7 +315,7 @@ class Jobs(wx.Frame):
         dialog = ChangeJobDialog(self, title = "Change Server", job_data = job_data)
         if dialog.ShowModal() != wx.ID_OK:
             return 
-        
+
         updated_data = dialog.get_job_data()
         job_id = updated_data.get('job_id')
         new_frequency = updated_data.get('frequency', '').strip()
@@ -328,14 +330,14 @@ class Jobs(wx.Frame):
 
         if new_frequency.isdigit():
             if not (1<= int(new_frequency) <= 28):
-                show_error(self, message= f"Frequency must be in range 1-28")
+                show_error(self, message= "Frequency must be in range 1-28")
                 dialog.Destroy()
                 return
             normalized_frequency = new_frequency 
         elif new_frequency.upper() in WEEKDAYS:
             normalized_frequency = new_frequency.upper()
         else:
-            show_error(self, message= f"Frequency must be three letter weekday (Mon, Tue, etc.) or number in range 1-28")
+            show_error(self, message= "Frequency must be three letter weekday (Mon, Tue, etc.) or number in range 1-28")
             dialog.Destroy()
             return
 
@@ -357,7 +359,7 @@ class Jobs(wx.Frame):
         if selected_index ==-1: # if no selection is made
             show_error(self,"Please select a Job to delete.")
             return
-        
+
         job_id = self.list_ctrl.GetItemText(selected_index)
         confirmation = wx.MessageBox(
             f"Are you sure you want to delete job '{job_id}'?",
@@ -365,19 +367,17 @@ class Jobs(wx.Frame):
             wx.YES_NO | wx.ICON_QUESTION,
             self
             )
-        
+
         if confirmation == wx.YES:
             rpg.delete_job(job_id)
             self.populate_jobs_list()
             wx.Yield()
             show_success(self, f"Job '{job_id}' deleted successfully.")
-        
-        
+
+
     def on_back_button_click(self,event) -> None:
         """
         Go back to the main page.
         """
-        # TODO: Delete the current page.
         self.Hide()
         self.parent.Show()
-    
