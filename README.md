@@ -74,5 +74,3 @@ Use this object to acces RPG configuration information through the following met
 * `save` ... Write the current configuration to the file
 
 ## Authors and acknowledgment
-
-This project is maintained by Holger Reusch <holger.reusch@ucalgary.ca>
