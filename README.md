@@ -73,4 +73,3 @@ Use this object to acces RPG configuration information through the following met
 * `servers` ... Return the ids of all defined servers
 * `save` ... Write the current configuration to the file
 
-## Authors and acknowledgment
